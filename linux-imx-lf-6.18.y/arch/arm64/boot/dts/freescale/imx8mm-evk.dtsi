@@ -10,6 +10,7 @@
 #include "imx8mm.dtsi"
 #include "imx8mm-nxp-display.dtsi"
 
+
 / {
 	chosen {
 		stdout-path = &uart2;
