@@ -1,0 +1,63 @@
+1. i.MX95 uses dedicated SOC type, so must set "SOC=iMX95"
+
+2. By default, OEI image is not used. To use OEI image, only need to add "OEI=YES" in command. The "OEI=YES" is pertained to all targets to enable OEI.
+   The default name of OEI images are: oei.bin.ca55 (singleboot) and oei.bin.cm33 (lpboot)
+   For example,
+	a) Non-OEI image for singleboot:
+		make SOC=iMX95 flash_singleboot
+
+	b) OEI image for singleboot:
+		make SOC=iMX95 OEI=YES flash_singleboot
+
+3. To run System manager, could use below targets. If need to use M33 OEI image, add "OEI=YES"
+	a) System manager only
+	make SOC=iMX95 flash_lpboot_sm
+	make SOC=iMX95 flash_lpboot_sm_no_ahabfw
+
+	b) System manager with M7 in TCM or DDR
+	make SOC=iMX95 flash_lpboot_sm_m7
+	make SOC=iMX95 flash_lpboot_sm_m7_no_ahabfw
+	make SOC=iMX95 flash_lpboot_sm_m7_ddr
+	make SOC=iMX95 flash_lpboot_sm_m7_ddr_no_ahabfw
+
+	c) System manager with A55 from sd/emmc or flexspi nor
+	make SOC=iMX95 flash_lpboot_sm_a55
+	make SOC=iMX95 flash_lpboot_sm_a55_no_ahabfw
+	make SOC=iMX95 flash_lpboot_sm_a55_flexspi
+
+	d) System manager with A55 + M7 (TCM)
+	make SOC=iMX95 flash_lpboot_sm_all
+	make SOC=iMX95 flash_lpboot_sm_all_no_ahabfw
+
+   Note: For iMX95 "UBOOT_LOAD_ADDR is set to 0x90200000", please ensure your u-boot is latest and uses this address.
+   Otherwise set the UBOOT_LOAD_ADDR to your address.
+   
+   MSEL=m can be used to specify a mode select value to pass to the SM. Can be used to select at run-time between
+   boot configurations (which cores to boot, etc.).
+
+4. The DDR Firmware used by default is LPDDR5 (for both OEI or Non-OEI), to generate image with LPDDR4x or LPDDR4,
+   set the "LPDDR_TYPE=lpddr4"
+
+5. Options "GDET", "VDET", "AGDET", "FDET", "TMPSNS" are used for container flag values. For example:
+   set "GDET=2" will set the flag bits 20-21 to 0b10: GDET is enabled only when ELE receives a command
+   set "VDET=1" will set the flag bits 22-23 to 0b01: AGDET is enabled after boot but not in suspend
+
+    GDET=0: Disable.
+    GDET=1: Enable after boot (not enabled in suspend mode).
+    GDET=2: Enable whenever a security relevant command is received. (not enabled in suspend mode).
+
+    VDET=0: Disable.
+    VDET=1: Enable after boot (not enabled in suspend mode).
+    VDET=2: Enable whenever a security relevant command is received. (not enabled in suspend mode).
+    VDET=3: Same as 1 but enabled in suspend mode.
+
+    AGDET=0: Disable.
+    AGDET=1: Enable after boot (not enabled in suspend mode).
+    AGDET=2: Enable whenever a security relevant command is received. (not enabled in suspend mode).
+    AGDET=3: Same as 1 but enabled in suspend mode.
+
+    FDET=0: Disable.
+    FDET=1: Enable after boot (not enabled in suspend mode).
+
+    TMPSNS=0: Disable.
+    TMPSNS=1: Keep enabled during suspend mode.

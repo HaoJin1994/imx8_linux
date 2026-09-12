@@ -1,0 +1,1 @@
+/usr/bin/c++  -pthread -O2 CMakeFiles/uuu.dir/uuu.cpp.o CMakeFiles/uuu.dir/buildincmd.cpp.o CMakeFiles/uuu.dir/autocomplete.cpp.o -o uuu   -L/home/jin/imx8m/mfgtools/uuu/libuuu  ../libuuu/libuuc_s.a /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lusb-1.0 -lz -lzstd -ltinyxml2 -ldl -lbz2 

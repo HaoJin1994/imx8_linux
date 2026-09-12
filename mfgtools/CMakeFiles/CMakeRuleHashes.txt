@@ -1,0 +1,13 @@
+# Hashes of file build rules.
+07a5510ff1d6fe8682115801e7b1a021 libuuu/gitversion.h
+b821bd67bd4414ed31b279a1cbf27ce7 uuu/gen/emmc_burn_all.clst
+d6365a84388fbe50fb2f295594975835 uuu/gen/emmc_burn_loader.clst
+06880142b3f67224a19dad5d4047d00a uuu/gen/fat_write.clst
+1f455b7db53f5893c4eae31cb70352b2 uuu/gen/fspinand_burn_loader.clst
+63556a6934b4af53570a77429f1a1408 uuu/gen/nand_burn_loader.clst
+2ea58f40503707372326cb3cca2d79e2 uuu/gen/nvme_burn_all.clst
+67f3c7632cb14c7f7a27f0ec10029e2d uuu/gen/qspi_burn_loader.clst
+38005ed28814ffea1af71534e0fcf058 uuu/gen/sd_burn_all.clst
+998796e047697dd67391d9aeebce1add uuu/gen/sd_burn_loader.clst
+59390a897392f61af994890502d4820f uuu/gen/spl_boot.clst
+08beb511e61fb4480a55c162cbbc064d uuu/gen/uuu.clst

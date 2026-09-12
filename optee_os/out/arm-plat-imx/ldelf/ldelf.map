@@ -1,0 +1,2219 @@
+Archive member included to satisfy reference by file (symbol)
+
+out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+                              out/arm-plat-imx/ldelf/ta_elf.o (print_stack_arm32)
+out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+                              out/arm-plat-imx/ldelf/ta_elf.o (print_stack_arm64)
+out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+                              out/arm-plat-imx/ldelf/main.o (_assert_log)
+out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+                              out/arm-plat-imx/ldelf/ta_elf.o (tee_uuid_from_str)
+out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+                              out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o) (_utee_panic)
+out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+                              out/arm-plat-imx/ldelf/ta_elf.o (malloc)
+out/arm-plat-imx/ldelf-lib/libutils/libutils.a(isxdigit.o)
+                              out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o) (isxdigit)
+out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintf.o)
+                              out/arm-plat-imx/ldelf/ta_elf.o (snprintf)
+out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+                              out/arm-plat-imx/ldelf/dl.o (__stack_chk_fail)
+out/arm-plat-imx/ldelf-lib/libutils/libutils.a(tolower.o)
+                              out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o) (tolower)
+out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcmp.o)
+                              out/arm-plat-imx/ldelf/dl.o (memcmp)
+out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcpy.o)
+                              out/arm-plat-imx/ldelf/main.o (memcpy)
+out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memset.o)
+                              out/arm-plat-imx/ldelf/ta_elf.o (memset)
+out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcmp.o)
+                              out/arm-plat-imx/ldelf/ta_elf_rel.o (strcmp)
+out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcpy.o)
+                              out/arm-plat-imx/ldelf/ta_elf.o (strcpy)
+out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strnlen.o)
+                              out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o) (strnlen)
+out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o)
+                              out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintf.o) (__vsnprintf)
+out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+                              out/arm-plat-imx/ldelf/main.o (trace_vprintf)
+out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memchr.o)
+                              out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o) (memchr)
+out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strlen.o)
+                              out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o) (strlen)
+out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+                              out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o) (trace_ext_puts)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 out/arm-plat-imx/ldelf/start_a64.o
+ .data          0x0000000000000000        0x0 out/arm-plat-imx/ldelf/start_a64.o
+ .bss           0x0000000000000000        0x0 out/arm-plat-imx/ldelf/start_a64.o
+ .text          0x0000000000000000        0x0 out/arm-plat-imx/ldelf/syscalls_a64.o
+ .data          0x0000000000000000        0x0 out/arm-plat-imx/ldelf/syscalls_a64.o
+ .bss           0x0000000000000000        0x0 out/arm-plat-imx/ldelf/syscalls_a64.o
+ .text          0x0000000000000000        0x0 out/arm-plat-imx/ldelf/tlsdesc_rel_a64.o
+ .data          0x0000000000000000        0x0 out/arm-plat-imx/ldelf/tlsdesc_rel_a64.o
+ .bss           0x0000000000000000        0x0 out/arm-plat-imx/ldelf/tlsdesc_rel_a64.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/dl.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/dl.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/dl.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/dl.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/dl.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/dl.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/dl.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/dl.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/dl.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/dl.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/dl.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/dl.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/dl.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/dl.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/dl.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/dl.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/dl.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/dl.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/dl.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/dl.o
+ .text          0x0000000000000000        0x0 out/arm-plat-imx/ldelf/dl.o
+ .data          0x0000000000000000        0x0 out/arm-plat-imx/ldelf/dl.o
+ .bss           0x0000000000000000        0x0 out/arm-plat-imx/ldelf/dl.o
+ .eh_frame      0x0000000000000000       0x80 out/arm-plat-imx/ldelf/dl.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/main.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/main.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/main.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/main.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/main.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/main.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/main.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/main.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/main.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/main.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/main.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/main.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/main.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/main.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/main.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/main.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/main.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/main.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/main.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/main.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/main.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/main.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/main.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/main.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/main.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/main.o
+ .text          0x0000000000000000        0x0 out/arm-plat-imx/ldelf/main.o
+ .data          0x0000000000000000        0x0 out/arm-plat-imx/ldelf/main.o
+ .bss           0x0000000000000000        0x0 out/arm-plat-imx/ldelf/main.o
+ .debug_macro   0x0000000000000000      0x69e out/arm-plat-imx/ldelf/main.o
+ .debug_macro   0x0000000000000000      0x12c out/arm-plat-imx/ldelf/main.o
+ .debug_macro   0x0000000000000000       0x58 out/arm-plat-imx/ldelf/main.o
+ .debug_macro   0x0000000000000000       0x22 out/arm-plat-imx/ldelf/main.o
+ .debug_macro   0x0000000000000000      0x174 out/arm-plat-imx/ldelf/main.o
+ .debug_macro   0x0000000000000000       0x34 out/arm-plat-imx/ldelf/main.o
+ .debug_macro   0x0000000000000000       0x79 out/arm-plat-imx/ldelf/main.o
+ .debug_macro   0x0000000000000000       0x1c out/arm-plat-imx/ldelf/main.o
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-imx/ldelf/main.o
+ .debug_macro   0x0000000000000000      0x1a0 out/arm-plat-imx/ldelf/main.o
+ .debug_macro   0x0000000000000000       0xc4 out/arm-plat-imx/ldelf/main.o
+ .debug_macro   0x0000000000000000       0x3a out/arm-plat-imx/ldelf/main.o
+ .debug_macro   0x0000000000000000      0xcf1 out/arm-plat-imx/ldelf/main.o
+ .debug_macro   0x0000000000000000       0x35 out/arm-plat-imx/ldelf/main.o
+ .debug_macro   0x0000000000000000      0x120 out/arm-plat-imx/ldelf/main.o
+ .debug_macro   0x0000000000000000       0xa4 out/arm-plat-imx/ldelf/main.o
+ .debug_macro   0x0000000000000000       0xb6 out/arm-plat-imx/ldelf/main.o
+ .debug_macro   0x0000000000000000       0x16 out/arm-plat-imx/ldelf/main.o
+ .debug_macro   0x0000000000000000      0x2e9 out/arm-plat-imx/ldelf/main.o
+ .eh_frame      0x0000000000000000       0x98 out/arm-plat-imx/ldelf/main.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/sys.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/sys.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/sys.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/sys.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/sys.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/sys.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/sys.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/sys.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/sys.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/sys.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/sys.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/sys.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/sys.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/sys.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/sys.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/sys.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/sys.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/sys.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/sys.o
+ .text          0x0000000000000000        0x0 out/arm-plat-imx/ldelf/sys.o
+ .data          0x0000000000000000        0x0 out/arm-plat-imx/ldelf/sys.o
+ .bss           0x0000000000000000        0x0 out/arm-plat-imx/ldelf/sys.o
+ .debug_macro   0x0000000000000000      0x69e out/arm-plat-imx/ldelf/sys.o
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-imx/ldelf/sys.o
+ .debug_macro   0x0000000000000000      0x174 out/arm-plat-imx/ldelf/sys.o
+ .debug_macro   0x0000000000000000      0x1a0 out/arm-plat-imx/ldelf/sys.o
+ .debug_macro   0x0000000000000000       0xc4 out/arm-plat-imx/ldelf/sys.o
+ .debug_macro   0x0000000000000000       0x22 out/arm-plat-imx/ldelf/sys.o
+ .debug_macro   0x0000000000000000       0x3a out/arm-plat-imx/ldelf/sys.o
+ .debug_macro   0x0000000000000000      0x12c out/arm-plat-imx/ldelf/sys.o
+ .debug_macro   0x0000000000000000      0xcf1 out/arm-plat-imx/ldelf/sys.o
+ .debug_macro   0x0000000000000000       0x35 out/arm-plat-imx/ldelf/sys.o
+ .debug_macro   0x0000000000000000       0x58 out/arm-plat-imx/ldelf/sys.o
+ .debug_macro   0x0000000000000000       0x34 out/arm-plat-imx/ldelf/sys.o
+ .debug_macro   0x0000000000000000       0x79 out/arm-plat-imx/ldelf/sys.o
+ .debug_macro   0x0000000000000000       0x1c out/arm-plat-imx/ldelf/sys.o
+ .debug_macro   0x0000000000000000      0x120 out/arm-plat-imx/ldelf/sys.o
+ .debug_macro   0x0000000000000000       0xa4 out/arm-plat-imx/ldelf/sys.o
+ .debug_macro   0x0000000000000000       0xb6 out/arm-plat-imx/ldelf/sys.o
+ .debug_macro   0x0000000000000000       0x22 out/arm-plat-imx/ldelf/sys.o
+ .eh_frame      0x0000000000000000      0x100 out/arm-plat-imx/ldelf/sys.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf.o
+ .text          0x0000000000000000        0x0 out/arm-plat-imx/ldelf/ta_elf.o
+ .data          0x0000000000000000        0x0 out/arm-plat-imx/ldelf/ta_elf.o
+ .bss           0x0000000000000000        0x0 out/arm-plat-imx/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000      0x69e out/arm-plat-imx/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-imx/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000      0x1a0 out/arm-plat-imx/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000      0x12c out/arm-plat-imx/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000      0x174 out/arm-plat-imx/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000       0x16 out/arm-plat-imx/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000       0xc4 out/arm-plat-imx/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000       0x22 out/arm-plat-imx/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000       0x3a out/arm-plat-imx/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000       0x58 out/arm-plat-imx/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000       0x34 out/arm-plat-imx/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000       0x79 out/arm-plat-imx/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000       0x1c out/arm-plat-imx/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000       0x2e out/arm-plat-imx/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000      0xcf1 out/arm-plat-imx/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000       0x35 out/arm-plat-imx/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000      0x120 out/arm-plat-imx/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000       0xa4 out/arm-plat-imx/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000       0xb6 out/arm-plat-imx/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000       0x3a out/arm-plat-imx/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000       0x6a out/arm-plat-imx/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000       0x47 out/arm-plat-imx/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000       0x22 out/arm-plat-imx/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000      0x2e9 out/arm-plat-imx/ldelf/ta_elf.o
+ .eh_frame      0x0000000000000000      0x630 out/arm-plat-imx/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .text          0x0000000000000000        0x0 out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .data          0x0000000000000000        0x0 out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .bss           0x0000000000000000        0x0 out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000000000      0x69e out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000000000      0x12c out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000000000       0x58 out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000000000       0x22 out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000000000      0x174 out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000000000       0x34 out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000000000       0x79 out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000000000       0x1c out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000000000      0x1a0 out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000000000     0x1610 out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000000000       0x4a out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000000000       0x5f out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000000000       0x16 out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000000000       0xc4 out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000000000      0xcf1 out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000000000       0x35 out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000000000      0x120 out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000000000       0x3a out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000000000       0x22 out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000000000       0xb6 out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000000000      0x2e9 out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .eh_frame      0x0000000000000000      0x1e8 out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .text          0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .data          0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .bss           0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .debug_macro   0x0000000000000000      0x69e out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .debug_macro   0x0000000000000000      0x174 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .debug_macro   0x0000000000000000       0x16 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .debug_macro   0x0000000000000000      0x12c out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .debug_macro   0x0000000000000000       0x58 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .debug_macro   0x0000000000000000       0x22 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .debug_macro   0x0000000000000000       0x34 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .debug_macro   0x0000000000000000       0x79 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .debug_macro   0x0000000000000000      0x1a0 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .debug_macro   0x0000000000000000       0xc4 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .debug_macro   0x0000000000000000       0x3a out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .debug_macro   0x0000000000000000      0x120 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .eh_frame      0x0000000000000000       0xd8 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .text          0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .data          0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .bss           0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .debug_macro   0x0000000000000000      0x69e out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .debug_macro   0x0000000000000000      0x12c out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .debug_macro   0x0000000000000000       0x58 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .debug_macro   0x0000000000000000       0x22 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .debug_macro   0x0000000000000000      0x174 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .debug_macro   0x0000000000000000       0x34 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .debug_macro   0x0000000000000000       0x79 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .debug_macro   0x0000000000000000       0x1c out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .debug_macro   0x0000000000000000       0x16 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .debug_macro   0x0000000000000000      0x1a0 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .debug_macro   0x0000000000000000       0xc4 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .debug_macro   0x0000000000000000       0x3a out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .debug_macro   0x0000000000000000      0x120 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .eh_frame      0x0000000000000000       0x98 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .text          0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .data          0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .bss           0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000      0x69e out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000      0x12c out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0x58 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0x22 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000      0x174 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0x34 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0x79 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0x1c out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000      0xcf1 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000      0x1a0 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0xc4 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0x35 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0xf7 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0x3a out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .eh_frame      0x0000000000000000       0x50 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .text          0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .data          0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .bss           0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_macro   0x0000000000000000      0x69e out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_macro   0x0000000000000000      0x1a0 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_macro   0x0000000000000000      0x174 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_macro   0x0000000000000000       0x16 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_macro   0x0000000000000000      0x12c out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_macro   0x0000000000000000       0xc4 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_macro   0x0000000000000000       0x22 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_macro   0x0000000000000000      0xcf1 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_macro   0x0000000000000000       0x35 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_macro   0x0000000000000000       0x58 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_macro   0x0000000000000000       0x34 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_macro   0x0000000000000000       0x79 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_macro   0x0000000000000000       0xf7 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_macro   0x0000000000000000       0x3a out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .eh_frame      0x0000000000000000       0x88 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .text          0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .data          0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .bss           0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_return
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_log
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_get_property
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_get_property_name_to_index
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_open_ta_session
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_close_ta_session
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_invoke_ta_command
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_get_cancellation_flag
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_check_access_rights
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_unmask_cancellation
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_mask_cancellation
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_wait
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_get_time
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_set_ta_time
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_cryp_state_alloc
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_cryp_state_copy
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_cryp_state_free
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_hash_init
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_hash_update
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_hash_final
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_cipher_init
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_cipher_update
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_cipher_final
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_cryp_obj_get_info
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_cryp_obj_restrict_usage
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_cryp_obj_get_attr
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_cryp_obj_alloc
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_cryp_obj_close
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_cryp_obj_reset
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_cryp_obj_populate
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_cryp_obj_copy
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_cryp_derive_key
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_cryp_random_number_generate
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_authenc_init
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_authenc_update_aad
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_authenc_update_payload
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_authenc_enc_final
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_authenc_dec_final
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_asymm_operate
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_asymm_verify
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_storage_obj_open
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_storage_obj_create
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_storage_obj_del
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_storage_obj_rename
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_storage_alloc_enum
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_storage_free_enum
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_storage_reset_enum
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_storage_start_enum
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_storage_next_enum
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_storage_obj_read
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_storage_obj_write
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_storage_obj_trunc
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_storage_obj_seek
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_cryp_obj_generate_key
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .text._utee_cache_operation
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .text          0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .data          0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .bss           0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .text.bgetr    0x0000000000000000       0xcc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .text.raw_memalign
+                0x0000000000000000       0x24 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .text.raw_malloc
+                0x0000000000000000       0x24 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .text.raw_calloc
+                0x0000000000000000       0x24 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .text.raw_realloc
+                0x0000000000000000       0x24 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .text.malloc_flags
+                0x0000000000000000       0x20 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .text.memalign
+                0x0000000000000000       0x28 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .text.aligned_alloc
+                0x0000000000000000       0x38 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .text.free_wipe
+                0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .text.raw_malloc_get_ctx_size
+                0x0000000000000000        0x8 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .text.raw_malloc_init_ctx
+                0x0000000000000000       0x2c out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .text.raw_malloc_buffer_overlaps_heap
+                0x0000000000000000       0x80 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .text.raw_malloc_buffer_is_within_alloced
+                0x0000000000000000      0x128 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .text.malloc_buffer_is_within_alloced
+                0x0000000000000000       0x14 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .text.malloc_buffer_overlaps_heap
+                0x0000000000000000       0x14 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .rodata.__func__.0
+                0x0000000000000000       0x13 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .rodata.__func__.5
+                0x0000000000000000        0x6 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000      0x69e out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000      0x1a0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x28 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000      0x12c out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000      0x174 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x16 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0xc4 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x22 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x3a out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x10 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x2e out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x3a out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000      0xcf1 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x35 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x6a out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x47 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x58 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x34 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x79 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x1c out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000      0x120 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x1c out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .eh_frame      0x0000000000000000      0x380 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(isxdigit.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(isxdigit.o)
+ .text          0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(isxdigit.o)
+ .data          0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(isxdigit.o)
+ .bss           0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(isxdigit.o)
+ .debug_macro   0x0000000000000000      0x69e out/arm-plat-imx/ldelf-lib/libutils/libutils.a(isxdigit.o)
+ .eh_frame      0x0000000000000000       0x28 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(isxdigit.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .text          0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .data          0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .bss           0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .text.vsnprintf
+                0x0000000000000000       0x58 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .debug_macro   0x0000000000000000      0x69e out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .debug_macro   0x0000000000000000      0x174 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .debug_macro   0x0000000000000000       0x58 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .debug_macro   0x0000000000000000       0x22 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .eh_frame      0x0000000000000000       0x70 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+ .text          0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+ .data          0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+ .bss           0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+ .debug_macro   0x0000000000000000      0x69e out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+ .debug_macro   0x0000000000000000      0x12c out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+ .debug_macro   0x0000000000000000       0x58 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+ .debug_macro   0x0000000000000000       0x22 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+ .debug_macro   0x0000000000000000      0x174 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+ .debug_macro   0x0000000000000000       0x34 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+ .debug_macro   0x0000000000000000       0x79 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+ .debug_macro   0x0000000000000000      0x1a0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+ .debug_macro   0x0000000000000000       0xc4 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+ .debug_macro   0x0000000000000000      0xcf1 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+ .debug_macro   0x0000000000000000       0x35 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+ .debug_macro   0x0000000000000000       0x3a out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+ .eh_frame      0x0000000000000000       0x30 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(tolower.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(tolower.o)
+ .text          0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(tolower.o)
+ .data          0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(tolower.o)
+ .bss           0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(tolower.o)
+ .debug_macro   0x0000000000000000      0x69e out/arm-plat-imx/ldelf-lib/libutils/libutils.a(tolower.o)
+ .eh_frame      0x0000000000000000       0x28 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(tolower.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .text          0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .data          0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .bss           0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .debug_macro   0x0000000000000000      0x69e out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .debug_macro   0x0000000000000000      0x174 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .debug_macro   0x0000000000000000       0x16 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .eh_frame      0x0000000000000000       0x28 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .text          0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .data          0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .bss           0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .debug_macro   0x0000000000000000      0x69e out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .debug_macro   0x0000000000000000      0x174 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .debug_macro   0x0000000000000000       0x16 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .eh_frame      0x0000000000000000       0x28 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memset.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memset.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memset.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memset.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memset.o)
+ .text          0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memset.o)
+ .data          0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memset.o)
+ .bss           0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memset.o)
+ .debug_macro   0x0000000000000000      0x69e out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memset.o)
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memset.o)
+ .debug_macro   0x0000000000000000      0x174 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memset.o)
+ .debug_macro   0x0000000000000000       0x16 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memset.o)
+ .eh_frame      0x0000000000000000       0x28 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memset.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .text          0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .data          0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .bss           0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .debug_macro   0x0000000000000000      0x69e out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .debug_macro   0x0000000000000000      0x174 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .debug_macro   0x0000000000000000       0x16 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .eh_frame      0x0000000000000000       0x28 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .text          0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .data          0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .bss           0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .debug_macro   0x0000000000000000      0x69e out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .debug_macro   0x0000000000000000      0x174 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .debug_macro   0x0000000000000000       0x16 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .eh_frame      0x0000000000000000       0x28 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .text          0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .data          0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .bss           0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .debug_macro   0x0000000000000000      0x69e out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .debug_macro   0x0000000000000000      0x174 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .debug_macro   0x0000000000000000       0x16 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .eh_frame      0x0000000000000000       0x28 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .text          0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .data          0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .bss           0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .text.__vsprintf
+                0x0000000000000000       0x4c out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000000000      0x69e out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000000000      0x12c out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000000000      0x1a0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000000000      0x174 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000000000       0x16 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000000000       0x58 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000000000       0x22 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .eh_frame      0x0000000000000000      0x108 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .text          0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .data          0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .bss           0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .text.trace_set_level
+                0x0000000000000000       0x1c out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .text.trace_get_level
+                0x0000000000000000       0x10 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .text.dhex_dump
+                0x0000000000000000        0x4 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000      0x69e out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000       0x2e out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000      0x174 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000       0x58 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000       0x22 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000       0x16 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000      0x12c out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000       0x34 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000       0x79 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000      0x1a0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000       0xc4 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000       0x3a out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000       0x22 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000      0x120 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .eh_frame      0x0000000000000000       0xc8 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memchr.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memchr.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memchr.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memchr.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memchr.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memchr.o)
+ .text          0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memchr.o)
+ .data          0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memchr.o)
+ .bss           0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memchr.o)
+ .debug_macro   0x0000000000000000      0x69e out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memchr.o)
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memchr.o)
+ .debug_macro   0x0000000000000000      0x174 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memchr.o)
+ .debug_macro   0x0000000000000000       0x16 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memchr.o)
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memchr.o)
+ .eh_frame      0x0000000000000000       0x28 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memchr.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strlen.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strlen.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strlen.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strlen.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strlen.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strlen.o)
+ .text          0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strlen.o)
+ .data          0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strlen.o)
+ .bss           0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strlen.o)
+ .debug_macro   0x0000000000000000      0x69e out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strlen.o)
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strlen.o)
+ .debug_macro   0x0000000000000000      0x174 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strlen.o)
+ .debug_macro   0x0000000000000000       0x16 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strlen.o)
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strlen.o)
+ .eh_frame      0x0000000000000000       0x28 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strlen.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .text          0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .data          0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .bss           0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .text.printf   0x0000000000000000       0xd8 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .rodata.puts.str1.1
+                0x0000000000000000        0x2 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .text.puts     0x0000000000000000       0x40 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .text.putchar  0x0000000000000000       0x78 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000      0x69e out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000      0x174 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0x58 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0x16 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000      0x12c out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0x22 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0x34 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0x79 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000      0x1a0 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0xc4 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0x22 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000      0x120 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000      0xcf1 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0x35 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0x3a out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .eh_frame      0x0000000000000000       0xc0 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+
+.text           0x0000000000000000     0x7050
+                0x0000000000000000                __text_start = .
+ *(SORT_BY_ALIGNMENT(.text._ldelf_start))
+ .text._ldelf_start
+                0x0000000000000000       0x64 out/arm-plat-imx/ldelf/start_a64.o
+                0x0000000000000000                _ldelf_start
+ *(SORT_BY_ALIGNMENT(.text) SORT_BY_ALIGNMENT(.text.*))
+ *fill*         0x0000000000000064        0xc 
+ .text.memcpy   0x0000000000000070       0xec out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcpy.o)
+                0x0000000000000070                memcpy
+ .text._ldelf_panic
+                0x000000000000015c        0xc out/arm-plat-imx/ldelf/syscalls_a64.o
+                0x000000000000015c                _ldelf_panic
+ .text._ldelf_return
+                0x0000000000000168        0xc out/arm-plat-imx/ldelf/syscalls_a64.o
+                0x0000000000000168                _ldelf_return
+ .text._ldelf_log
+                0x0000000000000174        0xc out/arm-plat-imx/ldelf/syscalls_a64.o
+                0x0000000000000174                _ldelf_log
+ .text.__ldelf_panic
+                0x0000000000000180        0xc out/arm-plat-imx/ldelf/syscalls_a64.o
+                0x0000000000000180                __ldelf_panic
+ .text._ldelf_map_zi
+                0x000000000000018c        0xc out/arm-plat-imx/ldelf/syscalls_a64.o
+                0x000000000000018c                _ldelf_map_zi
+ .text._ldelf_unmap
+                0x0000000000000198        0xc out/arm-plat-imx/ldelf/syscalls_a64.o
+                0x0000000000000198                _ldelf_unmap
+ .text._ldelf_open_bin
+                0x00000000000001a4        0xc out/arm-plat-imx/ldelf/syscalls_a64.o
+                0x00000000000001a4                _ldelf_open_bin
+ .text._ldelf_close_bin
+                0x00000000000001b0        0xc out/arm-plat-imx/ldelf/syscalls_a64.o
+                0x00000000000001b0                _ldelf_close_bin
+ .text._ldelf_map_bin
+                0x00000000000001bc        0xc out/arm-plat-imx/ldelf/syscalls_a64.o
+                0x00000000000001bc                _ldelf_map_bin
+ .text._ldelf_cp_from_bin
+                0x00000000000001c8        0xc out/arm-plat-imx/ldelf/syscalls_a64.o
+                0x00000000000001c8                _ldelf_cp_from_bin
+ .text._ldelf_set_prot
+                0x00000000000001d4        0xc out/arm-plat-imx/ldelf/syscalls_a64.o
+                0x00000000000001d4                _ldelf_set_prot
+ .text._ldelf_remap
+                0x00000000000001e0        0xc out/arm-plat-imx/ldelf/syscalls_a64.o
+                0x00000000000001e0                _ldelf_remap
+ .text._ldelf_gen_rnd_num
+                0x00000000000001ec        0xc out/arm-plat-imx/ldelf/syscalls_a64.o
+                0x00000000000001ec                _ldelf_gen_rnd_num
+ .text.tlsdesc_resolve
+                0x00000000000001f8        0x8 out/arm-plat-imx/ldelf/tlsdesc_rel_a64.o
+                0x00000000000001f8                tlsdesc_resolve
+ .text.dlopen_entry
+                0x0000000000000200       0xb8 out/arm-plat-imx/ldelf/dl.o
+                0x0000000000000200                dlopen_entry
+ .text.dlsym_entry
+                0x00000000000002b8       0xcc out/arm-plat-imx/ldelf/dl.o
+                0x00000000000002b8                dlsym_entry
+ .text.dl_entry
+                0x0000000000000384       0x3c out/arm-plat-imx/ldelf/main.o
+ .text.print_to_console
+                0x00000000000003c0       0x4c out/arm-plat-imx/ldelf/main.o
+ .text.dump_ta_state
+                0x000000000000040c       0xf0 out/arm-plat-imx/ldelf/main.o
+ .text.ldelf    0x00000000000004fc      0x128 out/arm-plat-imx/ldelf/main.o
+                0x00000000000004fc                ldelf
+ .text.__panic  0x0000000000000624       0x9c out/arm-plat-imx/ldelf/sys.o
+                0x0000000000000624                __panic
+ .text.sys_return_cleanup
+                0x00000000000006c0       0x10 out/arm-plat-imx/ldelf/sys.o
+                0x00000000000006c0                sys_return_cleanup
+ .text.sys_map_zi
+                0x00000000000006d0       0x1c out/arm-plat-imx/ldelf/sys.o
+                0x00000000000006d0                sys_map_zi
+ .text.sys_unmap
+                0x00000000000006ec        0x4 out/arm-plat-imx/ldelf/sys.o
+                0x00000000000006ec                sys_unmap
+ .text.sys_open_ta_bin
+                0x00000000000006f0        0xc out/arm-plat-imx/ldelf/sys.o
+                0x00000000000006f0                sys_open_ta_bin
+ .text.sys_close_ta_bin
+                0x00000000000006fc        0x8 out/arm-plat-imx/ldelf/sys.o
+                0x00000000000006fc                sys_close_ta_bin
+ .text.sys_map_ta_bin
+                0x0000000000000704       0x1c out/arm-plat-imx/ldelf/sys.o
+                0x0000000000000704                sys_map_ta_bin
+ .text.sys_copy_from_ta_bin
+                0x0000000000000720       0x14 out/arm-plat-imx/ldelf/sys.o
+                0x0000000000000720                sys_copy_from_ta_bin
+ .text.sys_set_prot
+                0x0000000000000734        0x8 out/arm-plat-imx/ldelf/sys.o
+                0x0000000000000734                sys_set_prot
+ .text.sys_remap
+                0x000000000000073c        0x4 out/arm-plat-imx/ldelf/sys.o
+                0x000000000000073c                sys_remap
+ .text.sys_gen_random_num
+                0x0000000000000740        0x4 out/arm-plat-imx/ldelf/sys.o
+                0x0000000000000740                sys_gen_random_num
+ .text.check_range
+                0x0000000000000744       0xa8 out/arm-plat-imx/ldelf/ta_elf.o
+ .text.check_hashtab
+                0x00000000000007ec       0x58 out/arm-plat-imx/ldelf/ta_elf.o
+ .text.queue_elf_helper
+                0x0000000000000844       0x68 out/arm-plat-imx/ldelf/ta_elf.o
+ .text.add_segment
+                0x00000000000008ac       0xd4 out/arm-plat-imx/ldelf/ta_elf.o
+ .text.get_pad_begin
+                0x0000000000000980       0x70 out/arm-plat-imx/ldelf/ta_elf.o
+ .text.ta_elf_add_bti
+                0x00000000000009f0       0x84 out/arm-plat-imx/ldelf/ta_elf.o
+ .text.init_elf
+                0x0000000000000a74      0x320 out/arm-plat-imx/ldelf/ta_elf.o
+ .text.close_handle
+                0x0000000000000d94       0x5c out/arm-plat-imx/ldelf/ta_elf.o
+ .text.print_wrapper
+                0x0000000000000df0       0xb0 out/arm-plat-imx/ldelf/ta_elf.o
+ .text.check_phdr_in_range.constprop.0
+                0x0000000000000ea0       0x74 out/arm-plat-imx/ldelf/ta_elf.o
+ .text._assert_trap.constprop.0
+                0x0000000000000f14       0x20 out/arm-plat-imx/ldelf/ta_elf.o
+ .text.print_seg
+                0x0000000000000f34      0x170 out/arm-plat-imx/ldelf/ta_elf.o
+ .text.copy_section_headers
+                0x00000000000010a4      0x114 out/arm-plat-imx/ldelf/ta_elf.o
+ .text.populate_segments
+                0x00000000000011b8      0x4dc out/arm-plat-imx/ldelf/ta_elf.o
+ .text.map_segments
+                0x0000000000001694      0x504 out/arm-plat-imx/ldelf/ta_elf.o
+ .text.get_next_in_order
+                0x0000000000001b98       0xd4 out/arm-plat-imx/ldelf/ta_elf.o
+ .text.read_dyn
+                0x0000000000001c6c       0x44 out/arm-plat-imx/ldelf/ta_elf.o
+ .text.save_soname_from_segment
+                0x0000000000001cb0      0x128 out/arm-plat-imx/ldelf/ta_elf.o
+ .text.save_symtab
+                0x0000000000001dd8      0x450 out/arm-plat-imx/ldelf/ta_elf.o
+ .text.get_init_fini_array.constprop.0
+                0x0000000000002228      0x164 out/arm-plat-imx/ldelf/ta_elf.o
+ .text.elf_get_init_fini_array.constprop.0
+                0x000000000000238c       0x8c out/arm-plat-imx/ldelf/ta_elf.o
+ .text.ta_elf_find_elf
+                0x0000000000002418       0x48 out/arm-plat-imx/ldelf/ta_elf.o
+                0x0000000000002418                ta_elf_find_elf
+ .text.queue_elf
+                0x0000000000002460       0x5c out/arm-plat-imx/ldelf/ta_elf.o
+ .text.add_deps_from_segment
+                0x00000000000024bc      0x218 out/arm-plat-imx/ldelf/ta_elf.o
+ .text.add_dependencies
+                0x00000000000026d4       0x80 out/arm-plat-imx/ldelf/ta_elf.o
+ .text.ta_elf_load_main
+                0x0000000000002754      0x4a0 out/arm-plat-imx/ldelf/ta_elf.o
+                0x0000000000002754                ta_elf_load_main
+ .text.ta_elf_load_dependency
+                0x0000000000002bf4       0xec out/arm-plat-imx/ldelf/ta_elf.o
+                0x0000000000002bf4                ta_elf_load_dependency
+ .text.ta_elf_finalize_mappings
+                0x0000000000002ce0       0x90 out/arm-plat-imx/ldelf/ta_elf.o
+                0x0000000000002ce0                ta_elf_finalize_mappings
+ .text.ta_elf_print_mappings
+                0x0000000000002d70      0x2a8 out/arm-plat-imx/ldelf/ta_elf.o
+                0x0000000000002d70                ta_elf_print_mappings
+ .text.find_exidx
+                0x0000000000003018       0x84 out/arm-plat-imx/ldelf/ta_elf.o
+                0x0000000000003018                find_exidx
+ .text.ta_elf_stack_trace_a32
+                0x000000000000309c       0x88 out/arm-plat-imx/ldelf/ta_elf.o
+                0x000000000000309c                ta_elf_stack_trace_a32
+ .text.ta_elf_stack_trace_a64
+                0x0000000000003124       0x70 out/arm-plat-imx/ldelf/ta_elf.o
+                0x0000000000003124                ta_elf_stack_trace_a64
+ .text.ta_elf_set_init_fini_info_compat
+                0x0000000000003194      0x2e0 out/arm-plat-imx/ldelf/ta_elf.o
+                0x0000000000003194                ta_elf_set_init_fini_info_compat
+ .text.ta_elf_set_elf_phdr_info
+                0x0000000000003474      0x27c out/arm-plat-imx/ldelf/ta_elf.o
+                0x0000000000003474                ta_elf_set_elf_phdr_info
+ .text.ta_elf_finalize_load_main
+                0x00000000000036f0       0xdc out/arm-plat-imx/ldelf/ta_elf.o
+                0x00000000000036f0                ta_elf_finalize_load_main
+ .text.ta_elf_add_library
+                0x00000000000037cc       0xac out/arm-plat-imx/ldelf/ta_elf.o
+                0x00000000000037cc                ta_elf_add_library
+ .text.check_found_sym
+                0x0000000000003878      0x1d8 out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .text.resolve_sym_helper
+                0x0000000000003a50      0x228 out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .text.e32_get_sym_name.constprop.0.isra.0
+                0x0000000000003c78       0xb0 out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .text.e64_get_sym_name.constprop.0.isra.0
+                0x0000000000003d28       0xac out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .text.ta_elf_resolve_sym
+                0x0000000000003dd4       0xb8 out/arm-plat-imx/ldelf/ta_elf_rel.o
+                0x0000000000003dd4                ta_elf_resolve_sym
+ .text.resolve_sym
+                0x0000000000003e8c       0x74 out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .text.e32_process_dyn_rel
+                0x0000000000003f00       0x8c out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .text.e64_process_dyn_rela
+                0x0000000000003f8c       0x8c out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .text.e64_process_tls_tprel_rela
+                0x0000000000004018       0xbc out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .text.ta_elf_relocate
+                0x00000000000040d4      0x900 out/arm-plat-imx/ldelf/ta_elf_rel.o
+                0x00000000000040d4                ta_elf_relocate
+ .text.pop_vsp  0x00000000000049d4       0x5c out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .text.unwind_exec_read_byte
+                0x0000000000004a30       0xc4 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .text.unwind_stack_arm32
+                0x0000000000004af4      0x49c out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+                0x0000000000004af4                unwind_stack_arm32
+ .text.print_stack_arm32
+                0x0000000000004f90       0x84 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+                0x0000000000004f90                print_stack_arm32
+ .text.ftrace_map_lr
+                0x0000000000005014        0x4 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+                0x0000000000005014                ftrace_map_lr
+ .text.pauth_strip_pac
+                0x0000000000005018        0x4 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+                0x0000000000005018                pauth_strip_pac
+ .text.unwind_stack_arm64
+                0x000000000000501c       0x9c out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+                0x000000000000501c                unwind_stack_arm64
+ .text.print_stack_arm64
+                0x00000000000050b8       0x90 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+                0x00000000000050b8                print_stack_arm64
+ .text._assert_log
+                0x0000000000005148       0x44 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+                0x0000000000005148                _assert_log
+ .text._assert_break
+                0x000000000000518c       0x14 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+                0x000000000000518c                _assert_break
+ .text.parse_hex
+                0x00000000000051a0       0x8c out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .text.tee_uuid_from_str
+                0x000000000000522c      0x18c out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+                0x000000000000522c                tee_uuid_from_str
+ .text._utee_panic
+                0x00000000000053b8        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+                0x00000000000053b8                _utee_panic
+ .text.__utee_panic
+                0x00000000000053c4        0xc out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+                0x00000000000053c4                __utee_panic
+ .text._assert_trap
+                0x00000000000053d0       0x10 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .text.bget_buf_size
+                0x00000000000053e0       0x40 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .text.bget     0x0000000000005420      0x2a8 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+                0x0000000000005420                bget
+ .text.bgetz    0x00000000000056c8       0x84 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+                0x00000000000056c8                bgetz
+ .text.brel     0x000000000000574c      0x25c out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+                0x000000000000574c                brel
+ .text.raw_malloc_flags.part.0
+                0x00000000000059a8      0x130 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .text.bpool    0x0000000000005ad8       0xc4 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+                0x0000000000005ad8                bpool
+ .text.raw_malloc_flags
+                0x0000000000005b9c       0x1c out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+                0x0000000000005b9c                raw_malloc_flags
+ .text.raw_free
+                0x0000000000005bb8       0x44 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+                0x0000000000005bb8                raw_free
+ .text.free_flags
+                0x0000000000005bfc       0x18 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+                0x0000000000005bfc                free_flags
+ .text.malloc   0x0000000000005c14       0x28 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+                0x0000000000005c14                malloc
+ .text.calloc   0x0000000000005c3c       0x28 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+                0x0000000000005c3c                calloc
+ .text.realloc  0x0000000000005c64       0x28 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+                0x0000000000005c64                realloc
+ .text.free     0x0000000000005c8c        0xc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+                0x0000000000005c8c                free
+ .text.raw_malloc_add_pool
+                0x0000000000005c98       0xd0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+                0x0000000000005c98                raw_malloc_add_pool
+ .text.malloc_add_pool
+                0x0000000000005d68       0x14 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+                0x0000000000005d68                malloc_add_pool
+ .text.isxdigit
+                0x0000000000005d7c       0x28 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(isxdigit.o)
+                0x0000000000005d7c                isxdigit
+ .text.snprintf
+                0x0000000000005da4       0xb8 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintf.o)
+                0x0000000000005da4                snprintf
+ .text.__stack_chk_fail
+                0x0000000000005e5c       0x30 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+                0x0000000000005e5c                __stack_chk_fail
+ .text.tolower  0x0000000000005e8c       0x14 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(tolower.o)
+                0x0000000000005e8c                tolower
+ .text.memcmp   0x0000000000005ea0       0x34 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcmp.o)
+                0x0000000000005ea0                memcmp
+ .text.memset   0x0000000000005ed4       0x1c out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memset.o)
+                0x0000000000005ed4                memset
+ .text.strcmp   0x0000000000005ef0       0x24 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcmp.o)
+                0x0000000000005ef0                strcmp
+ .text.strcpy   0x0000000000005f14       0x18 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcpy.o)
+                0x0000000000005f14                strcpy
+ .text.strnlen  0x0000000000005f2c       0x28 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strnlen.o)
+                0x0000000000005f2c                strnlen
+ .text.__vsnprintf
+                0x0000000000005f54       0xcc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o)
+                0x0000000000005f54                __vsnprintf
+ .text.vsnprintk
+                0x0000000000006020       0x58 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o)
+                0x0000000000006020                vsnprintk
+ .text.snprintk
+                0x0000000000006078       0xb4 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o)
+                0x0000000000006078                snprintk
+ .text.kprintf.constprop.0
+                0x000000000000612c      0xbc0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .text.trace_vprintf
+                0x0000000000006cec      0x224 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+                0x0000000000006cec                trace_vprintf
+ .text.trace_printf
+                0x0000000000006f10       0xc8 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+                0x0000000000006f10                trace_printf
+ .text.memchr   0x0000000000006fd8       0x2c out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memchr.o)
+                0x0000000000006fd8                memchr
+ .text.strlen   0x0000000000007004       0x1c out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strlen.o)
+                0x0000000000007004                strlen
+ .text.trace_ext_puts
+                0x0000000000007020       0x28 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+                0x0000000000007020                trace_ext_puts
+ .text.trace_ext_get_thread_id
+                0x0000000000007048        0x8 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+                0x0000000000007048                trace_ext_get_thread_id
+ *(SORT_BY_ALIGNMENT(.stub))
+ *(SORT_BY_ALIGNMENT(.glue_7))
+ *(SORT_BY_ALIGNMENT(.glue_7t))
+ *(SORT_BY_ALIGNMENT(.gnu.linkonce.t.*))
+ *(SORT_BY_ALIGNMENT(.vfp11_veneer))
+                0x0000000000007050                __text_end = .
+
+.note.gnu.property
+ *(SORT_BY_ALIGNMENT(.note.gnu.property))
+
+.plt            0x0000000000007050        0x0
+ *(SORT_BY_ALIGNMENT(.plt))
+ .plt           0x0000000000007050        0x0 out/arm-plat-imx/ldelf/start_a64.o
+
+.eh_frame
+ *(SORT_BY_ALIGNMENT(.eh_frame))
+
+.rodata         0x0000000000007050     0x11ef
+ *(SORT_BY_ALIGNMENT(.gnu.linkonce.r.*))
+ *(SORT_BY_ALIGNMENT(.rodata) SORT_BY_ALIGNMENT(.rodata.*))
+ .rodata.ta_elf_relocate
+                0x0000000000007050       0x1f out/arm-plat-imx/ldelf/ta_elf_rel.o
+ *fill*         0x000000000000706f        0x1 
+ .rodata.kprintf.constprop.0
+                0x0000000000007070       0x8a out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .rodata.dump_ta_state.str1.1
+                0x00000000000070fa       0x49 out/arm-plat-imx/ldelf/main.o
+ .rodata.ldelf.str1.1
+                0x0000000000007143       0x1b out/arm-plat-imx/ldelf/main.o
+ .rodata.__func__.0
+                0x000000000000715e        0xe out/arm-plat-imx/ldelf/main.o
+ .rodata.__func__.1
+                0x000000000000716c        0x6 out/arm-plat-imx/ldelf/main.o
+ .rodata.__panic.str1.1
+                0x0000000000007172       0x22 out/arm-plat-imx/ldelf/sys.o
+                                         0x23 (size before relaxing)
+ .rodata.trace_ext_prefix
+                0x0000000000007194        0x3 out/arm-plat-imx/ldelf/sys.o
+                0x0000000000007194                trace_ext_prefix
+ .rodata.check_range.str1.1
+                0x0000000000007197       0x3e out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.check_hashtab.str1.1
+                0x00000000000071d5       0x24 out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.add_segment.str1.1
+                0x00000000000071f9       0x21 out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.ta_elf_add_bti.str1.1
+                0x000000000000721a        0xd out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.init_elf.str1.1
+                0x0000000000007227       0x81 out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.close_handle.str1.1
+                0x00000000000072a8       0x11 out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.check_phdr_in_range.constprop.0.str1.1
+                0x00000000000072b9       0x3d out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata._assert_trap.constprop.0.str1.1
+                0x00000000000072f6        0xf out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.print_seg.str1.1
+                0x0000000000007305       0x5d out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.copy_section_headers.str1.1
+                0x0000000000007362       0x2a out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.populate_segments.str1.1
+                0x000000000000738c       0x7b out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.map_segments.str1.1
+                0x0000000000007407      0x1a0 out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.get_next_in_order.str1.1
+                0x00000000000075a7       0x35 out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.save_soname_from_segment.str1.1
+                0x00000000000075dc       0x17 out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.save_symtab.str1.1
+                0x00000000000075f3      0x174 out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.queue_elf.str1.1
+                0x0000000000007767       0x11 out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.add_deps_from_segment.str1.1
+                0x0000000000007778       0x45 out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.ta_elf_load_main.str1.1
+                0x00000000000077bd       0x69 out/arm-plat-imx/ldelf/ta_elf.o
+                                         0x78 (size before relaxing)
+ .rodata.ta_elf_load_dependency.str1.1
+                0x0000000000007826       0x26 out/arm-plat-imx/ldelf/ta_elf.o
+                                         0x29 (size before relaxing)
+ .rodata.ta_elf_print_mappings.str1.1
+                0x000000000000784c       0x2e out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.ta_elf_set_init_fini_info_compat.str1.1
+                0x000000000000787a       0x41 out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.ta_elf_set_elf_phdr_info.str1.1
+                0x00000000000078bb       0x36 out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.ta_elf_finalize_load_main.str1.1
+                0x00000000000078f1       0x3a out/arm-plat-imx/ldelf/ta_elf.o
+                                         0x47 (size before relaxing)
+ .rodata.__func__.0
+                0x000000000000792b       0x13 out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.__func__.1
+                0x000000000000793e       0x19 out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.__func__.10
+                0x0000000000007957       0x1a out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.__func__.11
+                0x0000000000007971        0xd out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.__func__.12
+                0x000000000000797e       0x19 out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.__func__.13
+                0x0000000000007997       0x12 out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.__func__.14
+                0x00000000000079a9        0xe out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.__func__.15
+                0x00000000000079b7       0x10 out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.__func__.16
+                0x00000000000079c7       0x10 out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.__func__.17
+                0x00000000000079d7       0x15 out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.__func__.18
+                0x00000000000079ec        0xc out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.__func__.19
+                0x00000000000079f8       0x14 out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.__func__.2
+                0x0000000000007a0c       0x14 out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.__func__.20
+                0x0000000000007a20       0x16 out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.__func__.21
+                0x0000000000007a36       0x19 out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.__func__.22
+                0x0000000000007a4f       0x10 out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.__func__.23
+                0x0000000000007a5f        0xc out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.__func__.24
+                0x0000000000007a6b       0x12 out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.__func__.26
+                0x0000000000007a7d        0xd out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.__func__.27
+                0x0000000000007a8a        0x9 out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.__func__.28
+                0x0000000000007a93       0x14 out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.__func__.29
+                0x0000000000007aa7        0xf out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.__func__.3
+                0x0000000000007ab6        0x9 out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.__func__.31
+                0x0000000000007abf       0x11 out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.__func__.32
+                0x0000000000007ad0       0x12 out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.__func__.33
+                0x0000000000007ae2        0xa out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.__func__.34
+                0x0000000000007aec        0xa out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.__func__.35
+                0x0000000000007af6       0x11 out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.__func__.4
+                0x0000000000007b07       0x21 out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.__func__.5
+                0x0000000000007b28       0x12 out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.__func__.7
+                0x0000000000007b3a       0x16 out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.__func__.8
+                0x0000000000007b50       0x19 out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.__func__.9
+                0x0000000000007b69       0x17 out/arm-plat-imx/ldelf/ta_elf.o
+ .rodata.check_found_sym.str1.1
+                0x0000000000007b80       0x63 out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .rodata.e32_get_sym_name.constprop.0.isra.0.str1.1
+                0x0000000000007be3       0x32 out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .rodata.resolve_sym.str1.1
+                0x0000000000007c15       0x14 out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .rodata.ta_elf_relocate.str1.1
+                0x0000000000007c29      0x1ef out/arm-plat-imx/ldelf/ta_elf_rel.o
+                                        0x203 (size before relaxing)
+ .rodata.__func__.0
+                0x0000000000007e18       0x11 out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .rodata.__func__.1
+                0x0000000000007e29        0xd out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .rodata.__func__.2
+                0x0000000000007e36       0x13 out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .rodata.__func__.3
+                0x0000000000007e49        0xc out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .rodata.__func__.4
+                0x0000000000007e55       0x11 out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .rodata.__func__.5
+                0x0000000000007e66        0xd out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .rodata.__func__.6
+                0x0000000000007e73        0xc out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .rodata.__func__.7
+                0x0000000000007e7f       0x10 out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .rodata.__func__.8
+                0x0000000000007e8f       0x13 out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .rodata.print_stack_arm32.str1.1
+                0x0000000000007ea2       0x14 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .rodata.print_stack_arm64.str1.1
+                0x0000000000007eb6        0x9 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+                                         0x15 (size before relaxing)
+ .rodata._assert_log.str1.1
+                0x0000000000007ebf       0x27 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .rodata.bget_buf_size.str1.1
+                0x0000000000007ee6       0x2a out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .rodata.bget.str1.1
+                0x0000000000007f10      0x11e out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+                                        0x127 (size before relaxing)
+ .rodata.bgetz.str1.1
+                0x000000000000802e        0xe out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .rodata.brel.str1.1
+                0x000000000000803c      0x105 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .rodata.bpool.str1.1
+                0x0000000000008141       0x35 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .rodata.raw_malloc_add_pool.str1.1
+                0x0000000000008176       0x35 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+                                          0x2 (size before relaxing)
+ .rodata.__func__.1
+                0x0000000000008176       0x14 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .rodata.__func__.2
+                0x000000000000818a        0xe out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .rodata.__func__.3
+                0x0000000000008198        0x6 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .rodata.__func__.4
+                0x000000000000819e        0x5 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .rodata.__func__.6
+                0x00000000000081a3        0x6 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .rodata.__func__.7
+                0x00000000000081a9        0x5 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .rodata.__stack_chk_fail.str1.1
+                0x00000000000081ae       0x18 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+ .rodata.kprintf.constprop.0.str1.1
+                0x00000000000081c6       0x38 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .rodata.HEXDIGITS
+                0x00000000000081fe       0x11 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .rodata.hexdigits
+                0x000000000000820f       0x11 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .rodata.trace_vprintf.str1.1
+                0x0000000000008220       0x1a out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+                                         0x1b (size before relaxing)
+ .rodata.lvl_strs.0
+                0x000000000000823a        0x5 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+
+.gnu.version_d  0x0000000000008240        0x0
+ .gnu.version_d
+                0x0000000000008240        0x0 out/arm-plat-imx/ldelf/start_a64.o
+
+.gnu.version    0x0000000000008240        0x0
+ .gnu.version   0x0000000000008240        0x0 out/arm-plat-imx/ldelf/start_a64.o
+
+.gnu.version_r  0x0000000000008240        0x0
+ .gnu.version_r
+                0x0000000000008240        0x0 out/arm-plat-imx/ldelf/start_a64.o
+
+.gnu.hash       0x0000000000008240       0x1c
+ .gnu.hash      0x0000000000008240       0x1c out/arm-plat-imx/ldelf/start_a64.o
+
+.ARM.exidx
+ *(SORT_BY_ALIGNMENT(.ARM.exidx*) SORT_BY_ALIGNMENT(.gnu.linkonce.armexidx.*))
+
+.ARM.extab
+ *(SORT_BY_ALIGNMENT(.ARM.extab*))
+
+.ctors
+ *(SORT_BY_ALIGNMENT(.ctors))
+
+.dtors
+ *(SORT_BY_ALIGNMENT(.dtors))
+
+.dynsym         0x0000000000008260       0x48
+ *(SORT_BY_ALIGNMENT(.dynsym))
+ .dynsym        0x0000000000008260       0x48 out/arm-plat-imx/ldelf/start_a64.o
+
+.dynstr         0x00000000000082a8        0x1
+ *(SORT_BY_ALIGNMENT(.dynstr))
+ .dynstr        0x00000000000082a8        0x1 out/arm-plat-imx/ldelf/start_a64.o
+
+.hash           0x00000000000082b0       0x18
+ *(SORT_BY_ALIGNMENT(.hash))
+ .hash          0x00000000000082b0       0x18 out/arm-plat-imx/ldelf/start_a64.o
+                0x00000000000082c8                . = ALIGN (0x8)
+                0x00000000000082c8                __reloc_begin = .
+
+.rel.got
+ *(SORT_BY_ALIGNMENT(.rel.got))
+
+.rela.got       0x00000000000082c8       0x78
+ *(SORT_BY_ALIGNMENT(.rela.got))
+ .rela.got      0x00000000000082c8       0x78 out/arm-plat-imx/ldelf/start_a64.o
+
+.rel.text
+ *(SORT_BY_ALIGNMENT(.rel.text))
+ *(SORT_BY_ALIGNMENT(.rel.gnu.linkonce.t*))
+
+.rela.text
+ *(SORT_BY_ALIGNMENT(.rela.text))
+ *(SORT_BY_ALIGNMENT(.rela.gnu.linkonce.t*))
+
+.rel.data
+ *(SORT_BY_ALIGNMENT(.rel.data))
+ *(SORT_BY_ALIGNMENT(.rel.gnu.linkonce.d*))
+
+.rela.data
+ *(SORT_BY_ALIGNMENT(.rela.data))
+ *(SORT_BY_ALIGNMENT(.rela.gnu.linkonce.d*))
+
+.rel.rodata
+ *(SORT_BY_ALIGNMENT(.rel.rodata))
+ *(SORT_BY_ALIGNMENT(.rel.gnu.linkonce.r*))
+
+.rela.rodata
+ *(SORT_BY_ALIGNMENT(.rela.rodata))
+ *(SORT_BY_ALIGNMENT(.rela.gnu.linkonce.r*))
+
+.rel.dyn
+ *(SORT_BY_ALIGNMENT(.rel.dyn))
+
+.rela.dyn       0x0000000000008340       0x48
+ *(SORT_BY_ALIGNMENT(.rela.dyn))
+ .rela.data.rel.ro
+                0x0000000000008340        0x0 out/arm-plat-imx/ldelf/start_a64.o
+ .rela.ifunc    0x0000000000008340        0x0 out/arm-plat-imx/ldelf/start_a64.o
+ .rela.data.rel.local.main_elf_queue
+                0x0000000000008340       0x18 out/arm-plat-imx/ldelf/start_a64.o
+ .rela.data.rel.local.malloc_ctx
+                0x0000000000008358       0x30 out/arm-plat-imx/ldelf/start_a64.o
+
+.rel.ctors
+ *(SORT_BY_ALIGNMENT(.rel.ctors))
+
+.rela.ctors
+ *(SORT_BY_ALIGNMENT(.rela.ctors))
+
+.rel.dtors
+ *(SORT_BY_ALIGNMENT(.rel.dtors))
+
+.rela.dtors
+ *(SORT_BY_ALIGNMENT(.rela.dtors))
+
+.rel.init
+ *(SORT_BY_ALIGNMENT(.rel.init))
+
+.rela.init
+ *(SORT_BY_ALIGNMENT(.rela.init))
+
+.rel.fini
+ *(SORT_BY_ALIGNMENT(.rel.fini))
+
+.rela.fini
+ *(SORT_BY_ALIGNMENT(.rela.fini))
+
+.rel.bss
+ *(SORT_BY_ALIGNMENT(.rel.bss))
+
+.rela.bss       0x0000000000008388        0x0
+ *(SORT_BY_ALIGNMENT(.rela.bss))
+ .rela.bss      0x0000000000008388        0x0 out/arm-plat-imx/ldelf/start_a64.o
+
+.rel.plt
+ *(SORT_BY_ALIGNMENT(.rel.plt))
+
+.rela.plt       0x0000000000008388        0x0
+ *(SORT_BY_ALIGNMENT(.rela.plt))
+ .rela.plt      0x0000000000008388        0x0 out/arm-plat-imx/ldelf/start_a64.o
+                0x0000000000008388                __reloc_end = .
+                0x0000000000009000                . = ALIGN (0x1000)
+
+.dynamic        0x0000000000009000      0x110
+ *(SORT_BY_ALIGNMENT(.dynamic))
+ .dynamic       0x0000000000009000      0x110 out/arm-plat-imx/ldelf/start_a64.o
+                0x0000000000009000                _DYNAMIC
+
+.got            0x0000000000009110       0x48
+ *(SORT_BY_ALIGNMENT(.got.plt))
+ .got.plt       0x0000000000009110       0x18 out/arm-plat-imx/ldelf/start_a64.o
+ *(SORT_BY_ALIGNMENT(.got))
+ .got           0x0000000000009128       0x30 out/arm-plat-imx/ldelf/start_a64.o
+                0x0000000000009128                _GLOBAL_OFFSET_TABLE_
+
+.data           0x0000000000009158       0x5c
+ *(SORT_BY_ALIGNMENT(.data) SORT_BY_ALIGNMENT(.data.*) SORT_BY_ALIGNMENT(.gnu.linkonce.d.*))
+ .data.last_tls_mod_id.25
+                0x0000000000009158        0x8 out/arm-plat-imx/ldelf/ta_elf.o
+ .data.next_offs.30
+                0x0000000000009160        0x8 out/arm-plat-imx/ldelf/ta_elf.o
+ .data.rel.local.main_elf_queue
+                0x0000000000009168       0x10 out/arm-plat-imx/ldelf/ta_elf.o
+                0x0000000000009168                main_elf_queue
+ .data.rel.local.malloc_ctx
+                0x0000000000009178       0x30 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .data.__stack_chk_guard
+                0x00000000000091a8        0x8 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+                0x00000000000091a8                __stack_chk_guard
+ .data.trace_level
+                0x00000000000091b0        0x4 out/arm-plat-imx/ldelf/sys.o
+                0x00000000000091b0                trace_level
+ .data.rel.ro   0x00000000000091b4        0x0 out/arm-plat-imx/ldelf/start_a64.o
+
+.bss            0x00000000000091b8       0x18
+ *(SORT_BY_ALIGNMENT(.bss) SORT_BY_ALIGNMENT(.bss.*) SORT_BY_ALIGNMENT(.gnu.linkonce.b.*) SORT_BY_ALIGNMENT(COMMON))
+ .bss.mpool_base
+                0x00000000000091b8        0x8 out/arm-plat-imx/ldelf/main.o
+ .bss.ta_stack  0x00000000000091c0        0x8 out/arm-plat-imx/ldelf/ta_elf.o
+ .bss.ta_stack_size
+                0x00000000000091c8        0x8 out/arm-plat-imx/ldelf/ta_elf.o
+
+.dynbss         0x00000000000091d0        0x0
+ .dynbss        0x00000000000091d0        0x0 out/arm-plat-imx/ldelf/start_a64.o
+
+/DISCARD/
+ *(SORT_BY_ALIGNMENT(.interp))
+                0x00000000000091d0                __end = .
+LOAD out/arm-plat-imx/ldelf/start_a64.o
+LOAD out/arm-plat-imx/ldelf/syscalls_a64.o
+LOAD out/arm-plat-imx/ldelf/tlsdesc_rel_a64.o
+LOAD out/arm-plat-imx/ldelf/dl.o
+LOAD out/arm-plat-imx/ldelf/main.o
+LOAD out/arm-plat-imx/ldelf/sys.o
+LOAD out/arm-plat-imx/ldelf/ta_elf.o
+LOAD out/arm-plat-imx/ldelf/ta_elf_rel.o
+START GROUP
+LOAD out/arm-plat-imx/ldelf-lib/libunw/libunw.a
+LOAD out/arm-plat-imx/ldelf-lib/libutee/libutee.a
+LOAD out/arm-plat-imx/ldelf-lib/libutils/libutils.a
+END GROUP
+OUTPUT(out/arm-plat-imx/ldelf/ldelf.elf elf64-littleaarch64)
+LOAD linker stubs
+
+.debug_line     0x0000000000000000     0x721b
+ .debug_line    0x0000000000000000       0x63 out/arm-plat-imx/ldelf/start_a64.o
+ .debug_line    0x0000000000000063      0x14e out/arm-plat-imx/ldelf/syscalls_a64.o
+ .debug_line    0x00000000000001b1       0x4e out/arm-plat-imx/ldelf/tlsdesc_rel_a64.o
+ .debug_line    0x00000000000001ff      0x18f out/arm-plat-imx/ldelf/dl.o
+ .debug_line    0x000000000000038e      0x2b1 out/arm-plat-imx/ldelf/main.o
+ .debug_line    0x000000000000063f      0x245 out/arm-plat-imx/ldelf/sys.o
+ .debug_line    0x0000000000000884     0x25ec out/arm-plat-imx/ldelf/ta_elf.o
+ .debug_line    0x0000000000002e70      0xdc4 out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .debug_line    0x0000000000003c34      0x5e2 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .debug_line    0x0000000000004216      0x1be out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .debug_line    0x00000000000043d4      0x11e out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_line    0x00000000000044f2      0x25c out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_line    0x000000000000474e      0x50b out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .debug_line    0x0000000000004c59     0x102f out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_line    0x0000000000005c88       0x7b out/arm-plat-imx/ldelf-lib/libutils/libutils.a(isxdigit.o)
+ .debug_line    0x0000000000005d03       0xea out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .debug_line    0x0000000000005ded       0xdc out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+ .debug_line    0x0000000000005ec9       0x74 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(tolower.o)
+ .debug_line    0x0000000000005f3d       0xab out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .debug_line    0x0000000000005fe8      0x148 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .debug_line    0x0000000000006130       0x9a out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memset.o)
+ .debug_line    0x00000000000061ca       0xa8 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .debug_line    0x0000000000006272       0xb3 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .debug_line    0x0000000000006325       0xa0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .debug_line    0x00000000000063c5      0x84d out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .debug_line    0x0000000000006c12      0x2d9 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_line    0x0000000000006eeb       0xa8 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memchr.o)
+ .debug_line    0x0000000000006f93       0x9d out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strlen.o)
+ .debug_line    0x0000000000007030      0x1eb out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+
+.debug_line_str
+                0x0000000000000000      0x6b8
+ .debug_line_str
+                0x0000000000000000       0x31 out/arm-plat-imx/ldelf/start_a64.o
+                                         0x3d (size before relaxing)
+ .debug_line_str
+                0x0000000000000031       0x31 out/arm-plat-imx/ldelf/syscalls_a64.o
+                                         0x52 (size before relaxing)
+ .debug_line_str
+                0x0000000000000031       0x12 out/arm-plat-imx/ldelf/tlsdesc_rel_a64.o
+                                         0x49 (size before relaxing)
+ .debug_line_str
+                0x0000000000000043      0x1b4 out/arm-plat-imx/ldelf/dl.o
+                                        0x20a (size before relaxing)
+ .debug_line_str
+                0x00000000000001f7       0x75 out/arm-plat-imx/ldelf/main.o
+                                        0x27f (size before relaxing)
+ .debug_line_str
+                0x000000000000026c        0xc out/arm-plat-imx/ldelf/sys.o
+                                        0x1df (size before relaxing)
+ .debug_line_str
+                0x0000000000000278       0xc2 out/arm-plat-imx/ldelf/ta_elf.o
+                                        0x320 (size before relaxing)
+ .debug_line_str
+                0x000000000000033a       0x13 out/arm-plat-imx/ldelf/ta_elf_rel.o
+                                        0x267 (size before relaxing)
+ .debug_line_str
+                0x000000000000034d       0x25 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+                                        0x1ea (size before relaxing)
+ .debug_line_str
+                0x0000000000000372       0x23 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+                                        0x1f3 (size before relaxing)
+ .debug_line_str
+                0x0000000000000395       0x62 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+                                        0x233 (size before relaxing)
+ .debug_line_str
+                0x00000000000003f7       0x28 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+                                        0x24c (size before relaxing)
+ .debug_line_str
+                0x000000000000041f       0x3d out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+                                         0x84 (size before relaxing)
+ .debug_line_str
+                0x000000000000045c       0x56 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+                                        0x29c (size before relaxing)
+ .debug_line_str
+                0x00000000000004b2       0x1d out/arm-plat-imx/ldelf-lib/libutils/libutils.a(isxdigit.o)
+                                         0xd1 (size before relaxing)
+ .debug_line_str
+                0x00000000000004cf       0x1d out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintf.o)
+                                        0x14a (size before relaxing)
+ .debug_line_str
+                0x00000000000004ec       0x20 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+                                        0x1e0 (size before relaxing)
+ .debug_line_str
+                0x000000000000050c       0x1c out/arm-plat-imx/ldelf-lib/libutils/libutils.a(tolower.o)
+                                         0xce (size before relaxing)
+ .debug_line_str
+                0x0000000000000528       0x43 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcmp.o)
+                                        0x141 (size before relaxing)
+ .debug_line_str
+                0x000000000000056b       0x22 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcpy.o)
+                                        0x141 (size before relaxing)
+ .debug_line_str
+                0x000000000000058d       0x22 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memset.o)
+                                        0x141 (size before relaxing)
+ .debug_line_str
+                0x00000000000005af       0x22 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcmp.o)
+                                        0x14a (size before relaxing)
+ .debug_line_str
+                0x00000000000005d1       0x22 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcpy.o)
+                                        0x14a (size before relaxing)
+ .debug_line_str
+                0x00000000000005f3       0x23 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strnlen.o)
+                                        0x144 (size before relaxing)
+ .debug_line_str
+                0x0000000000000616       0x2d out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o)
+                                        0x195 (size before relaxing)
+ .debug_line_str
+                0x0000000000000643       0x19 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+                                        0x1d3 (size before relaxing)
+ .debug_line_str
+                0x000000000000065c       0x22 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memchr.o)
+                                        0x14a (size before relaxing)
+ .debug_line_str
+                0x000000000000067e       0x22 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strlen.o)
+                                        0x14a (size before relaxing)
+ .debug_line_str
+                0x00000000000006a0       0x18 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+                                        0x24a (size before relaxing)
+
+.debug_info     0x0000000000000000    0x1124d
+ .debug_info    0x0000000000000000       0x28 out/arm-plat-imx/ldelf/start_a64.o
+ .debug_info    0x0000000000000028       0x23 out/arm-plat-imx/ldelf/syscalls_a64.o
+ .debug_info    0x000000000000004b       0x28 out/arm-plat-imx/ldelf/tlsdesc_rel_a64.o
+ .debug_info    0x0000000000000073      0x733 out/arm-plat-imx/ldelf/dl.o
+ .debug_info    0x00000000000007a6      0xf3d out/arm-plat-imx/ldelf/main.o
+ .debug_info    0x00000000000016e3      0x91c out/arm-plat-imx/ldelf/sys.o
+ .debug_info    0x0000000000001fff     0x5ecb out/arm-plat-imx/ldelf/ta_elf.o
+ .debug_info    0x0000000000007eca     0x271b out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .debug_info    0x000000000000a5e5      0xab2 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .debug_info    0x000000000000b097      0x44e out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .debug_info    0x000000000000b4e5      0x1b1 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_info    0x000000000000b696      0x415 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_info    0x000000000000baab       0x23 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .debug_info    0x000000000000bace     0x37bd out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_info    0x000000000000f28b       0x6b out/arm-plat-imx/ldelf-lib/libutils/libutils.a(isxdigit.o)
+ .debug_info    0x000000000000f2f6      0x29b out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .debug_info    0x000000000000f591      0x13e out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+ .debug_info    0x000000000000f6cf       0x6b out/arm-plat-imx/ldelf-lib/libutils/libutils.a(tolower.o)
+ .debug_info    0x000000000000f73a       0xeb out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .debug_info    0x000000000000f825      0x12c out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .debug_info    0x000000000000f951       0xcf out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memset.o)
+ .debug_info    0x000000000000fa20       0xb0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .debug_info    0x000000000000fad0       0xc1 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .debug_info    0x000000000000fb91       0xc9 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .debug_info    0x000000000000fc5a      0x95f out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .debug_info    0x00000000000105b9      0x70b out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_info    0x0000000000010cc4       0xfb out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memchr.o)
+ .debug_info    0x0000000000010dbf       0xbb out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strlen.o)
+ .debug_info    0x0000000000010e7a      0x3d3 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+
+.debug_abbrev   0x0000000000000000     0x2ed8
+ .debug_abbrev  0x0000000000000000       0x14 out/arm-plat-imx/ldelf/start_a64.o
+ .debug_abbrev  0x0000000000000014       0x12 out/arm-plat-imx/ldelf/syscalls_a64.o
+ .debug_abbrev  0x0000000000000026       0x14 out/arm-plat-imx/ldelf/tlsdesc_rel_a64.o
+ .debug_abbrev  0x000000000000003a      0x1af out/arm-plat-imx/ldelf/dl.o
+ .debug_abbrev  0x00000000000001e9      0x366 out/arm-plat-imx/ldelf/main.o
+ .debug_abbrev  0x000000000000054f      0x1be out/arm-plat-imx/ldelf/sys.o
+ .debug_abbrev  0x000000000000070d      0x6de out/arm-plat-imx/ldelf/ta_elf.o
+ .debug_abbrev  0x0000000000000deb      0x51e out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .debug_abbrev  0x0000000000001309      0x31c out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .debug_abbrev  0x0000000000001625      0x215 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .debug_abbrev  0x000000000000183a       0xbd out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_abbrev  0x00000000000018f7      0x1db out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_abbrev  0x0000000000001ad2       0x12 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .debug_abbrev  0x0000000000001ae4      0x52c out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_abbrev  0x0000000000002010       0x52 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(isxdigit.o)
+ .debug_abbrev  0x0000000000002062      0x155 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .debug_abbrev  0x00000000000021b7       0xb1 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+ .debug_abbrev  0x0000000000002268       0x52 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(tolower.o)
+ .debug_abbrev  0x00000000000022ba       0x95 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .debug_abbrev  0x000000000000234f       0xbb out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .debug_abbrev  0x000000000000240a       0xa3 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memset.o)
+ .debug_abbrev  0x00000000000024ad       0x6f out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .debug_abbrev  0x000000000000251c       0x79 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .debug_abbrev  0x0000000000002595       0x87 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .debug_abbrev  0x000000000000261c      0x300 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .debug_abbrev  0x000000000000291c      0x2bf out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_abbrev  0x0000000000002bdb       0xb4 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memchr.o)
+ .debug_abbrev  0x0000000000002c8f       0x85 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strlen.o)
+ .debug_abbrev  0x0000000000002d14      0x1c4 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+
+.debug_aranges  0x0000000000000000     0x1070
+ .debug_aranges
+                0x0000000000000000       0x30 out/arm-plat-imx/ldelf/start_a64.o
+ .debug_aranges
+                0x0000000000000030       0xf0 out/arm-plat-imx/ldelf/syscalls_a64.o
+ .debug_aranges
+                0x0000000000000120       0x30 out/arm-plat-imx/ldelf/tlsdesc_rel_a64.o
+ .debug_aranges
+                0x0000000000000150       0x40 out/arm-plat-imx/ldelf/dl.o
+ .debug_aranges
+                0x0000000000000190       0x60 out/arm-plat-imx/ldelf/main.o
+ .debug_aranges
+                0x00000000000001f0       0xd0 out/arm-plat-imx/ldelf/sys.o
+ .debug_aranges
+                0x00000000000002c0      0x260 out/arm-plat-imx/ldelf/ta_elf.o
+ .debug_aranges
+                0x0000000000000520       0xc0 out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .debug_aranges
+                0x00000000000005e0       0x60 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .debug_aranges
+                0x0000000000000640       0x50 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .debug_aranges
+                0x0000000000000690       0x40 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_aranges
+                0x00000000000006d0       0x40 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_aranges
+                0x0000000000000710      0x3b0 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .debug_aranges
+                0x0000000000000ac0      0x210 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_aranges
+                0x0000000000000cd0       0x30 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(isxdigit.o)
+ .debug_aranges
+                0x0000000000000d00       0x40 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .debug_aranges
+                0x0000000000000d40       0x30 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+ .debug_aranges
+                0x0000000000000d70       0x30 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(tolower.o)
+ .debug_aranges
+                0x0000000000000da0       0x30 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .debug_aranges
+                0x0000000000000dd0       0x30 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .debug_aranges
+                0x0000000000000e00       0x30 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memset.o)
+ .debug_aranges
+                0x0000000000000e30       0x30 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .debug_aranges
+                0x0000000000000e60       0x30 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .debug_aranges
+                0x0000000000000e90       0x30 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .debug_aranges
+                0x0000000000000ec0       0x70 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .debug_aranges
+                0x0000000000000f30       0x70 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_aranges
+                0x0000000000000fa0       0x30 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memchr.o)
+ .debug_aranges
+                0x0000000000000fd0       0x30 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strlen.o)
+ .debug_aranges
+                0x0000000000001000       0x70 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+
+.debug_str      0x0000000000000000    0x16fe6
+ .debug_str     0x0000000000000000       0x3d out/arm-plat-imx/ldelf/start_a64.o
+ .debug_str     0x000000000000003d       0x15 out/arm-plat-imx/ldelf/syscalls_a64.o
+                                         0x40 (size before relaxing)
+ .debug_str     0x0000000000000052       0x18 out/arm-plat-imx/ldelf/tlsdesc_rel_a64.o
+                                         0x43 (size before relaxing)
+ .debug_str     0x000000000000006a     0xf4f5 out/arm-plat-imx/ldelf/dl.o
+                                       0xf6e2 (size before relaxing)
+ .debug_str     0x000000000000f55f      0xa8d out/arm-plat-imx/ldelf/main.o
+                                      0x1014f (size before relaxing)
+ .debug_str     0x000000000000ffec      0x17c out/arm-plat-imx/ldelf/sys.o
+                                       0xc1cf (size before relaxing)
+ .debug_str     0x0000000000010168     0x4f9a out/arm-plat-imx/ldelf/ta_elf.o
+                                      0x15170 (size before relaxing)
+ .debug_str     0x0000000000015102      0x290 out/arm-plat-imx/ldelf/ta_elf_rel.o
+                                      0x13bc8 (size before relaxing)
+ .debug_str     0x0000000000015392      0x293 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+                                       0x7552 (size before relaxing)
+ .debug_str     0x0000000000015625       0xf7 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+                                       0x7321 (size before relaxing)
+ .debug_str     0x000000000001571c       0x84 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+                                       0xb2a6 (size before relaxing)
+ .debug_str     0x00000000000157a0       0x61 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+                                       0xb212 (size before relaxing)
+ .debug_str     0x0000000000015801       0x29 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+                                         0x54 (size before relaxing)
+ .debug_str     0x000000000001582a      0x829 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+                                       0xc9f8 (size before relaxing)
+ .debug_str     0x0000000000016053       0x29 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(isxdigit.o)
+                                       0x477c (size before relaxing)
+ .debug_str     0x000000000001607c       0x3c out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintf.o)
+                                       0x4cf5 (size before relaxing)
+ .debug_str     0x00000000000160b8       0x56 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+                                       0xaae1 (size before relaxing)
+ .debug_str     0x000000000001610e       0x28 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(tolower.o)
+                                       0x477a (size before relaxing)
+ .debug_str     0x0000000000016136      0x24d out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcmp.o)
+                                       0x4d59 (size before relaxing)
+ .debug_str     0x0000000000016383      0x1e4 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcpy.o)
+                                       0x4db2 (size before relaxing)
+ .debug_str     0x0000000000016567      0x17d out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memset.o)
+                                       0x4d4c (size before relaxing)
+ .debug_str     0x00000000000166e4       0x78 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcmp.o)
+                                       0x4f36 (size before relaxing)
+ .debug_str     0x000000000001675c       0xc8 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcpy.o)
+                                       0x4f3f (size before relaxing)
+ .debug_str     0x0000000000016824       0x3f out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strnlen.o)
+                                       0x4cd9 (size before relaxing)
+ .debug_str     0x0000000000016863      0x594 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o)
+                                       0x6339 (size before relaxing)
+ .debug_str     0x0000000000016df7       0xec out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+                                       0x7497 (size before relaxing)
+ .debug_str     0x0000000000016ee3       0x94 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memchr.o)
+                                       0x4f99 (size before relaxing)
+ .debug_str     0x0000000000016f77       0x2e out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strlen.o)
+                                       0x4f36 (size before relaxing)
+ .debug_str     0x0000000000016fa5       0x41 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+                                       0xb9e7 (size before relaxing)
+
+.debug_rnglists
+                0x0000000000000000     0x1216
+ .debug_rnglists
+                0x0000000000000000       0x8f out/arm-plat-imx/ldelf/syscalls_a64.o
+ .debug_rnglists
+                0x000000000000008f       0x23 out/arm-plat-imx/ldelf/dl.o
+ .debug_rnglists
+                0x00000000000000b2       0x37 out/arm-plat-imx/ldelf/main.o
+ .debug_rnglists
+                0x00000000000000e9       0x7c out/arm-plat-imx/ldelf/sys.o
+ .debug_rnglists
+                0x0000000000000165      0x6b3 out/arm-plat-imx/ldelf/ta_elf.o
+ .debug_rnglists
+                0x0000000000000818      0x208 out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .debug_rnglists
+                0x0000000000000a20       0xd0 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .debug_rnglists
+                0x0000000000000af0       0x3d out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .debug_rnglists
+                0x0000000000000b2d       0x21 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_rnglists
+                0x0000000000000b4e       0x23 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_rnglists
+                0x0000000000000b71      0x247 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(utee_syscalls_a64.o)
+ .debug_rnglists
+                0x0000000000000db8      0x244 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_rnglists
+                0x0000000000000ffc       0x17 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(isxdigit.o)
+ .debug_rnglists
+                0x0000000000001013       0x22 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .debug_rnglists
+                0x0000000000001035       0x17 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+ .debug_rnglists
+                0x000000000000104c       0x17 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(tolower.o)
+ .debug_rnglists
+                0x0000000000001063       0x17 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .debug_rnglists
+                0x000000000000107a       0x18 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .debug_rnglists
+                0x0000000000001092       0x17 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memset.o)
+ .debug_rnglists
+                0x00000000000010a9       0x17 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .debug_rnglists
+                0x00000000000010c0       0x17 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .debug_rnglists
+                0x00000000000010d7       0x17 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .debug_rnglists
+                0x00000000000010ee       0x52 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .debug_rnglists
+                0x0000000000001140       0x68 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_rnglists
+                0x00000000000011a8       0x17 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memchr.o)
+ .debug_rnglists
+                0x00000000000011bf       0x17 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strlen.o)
+ .debug_rnglists
+                0x00000000000011d6       0x40 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+
+.debug_loclists
+                0x0000000000000000     0xb47b
+ .debug_loclists
+                0x0000000000000000       0xd4 out/arm-plat-imx/ldelf/dl.o
+ .debug_loclists
+                0x00000000000000d4      0x194 out/arm-plat-imx/ldelf/main.o
+ .debug_loclists
+                0x0000000000000268      0x453 out/arm-plat-imx/ldelf/sys.o
+ .debug_loclists
+                0x00000000000006bb     0x3524 out/arm-plat-imx/ldelf/ta_elf.o
+ .debug_loclists
+                0x0000000000003bdf     0x1f98 out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .debug_loclists
+                0x0000000000005b77      0x661 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .debug_loclists
+                0x00000000000061d8      0x180 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .debug_loclists
+                0x0000000000006358       0x95 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_loclists
+                0x00000000000063ed      0x2bf out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_loclists
+                0x00000000000066ac     0x29f7 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_loclists
+                0x00000000000090a3       0x36 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(isxdigit.o)
+ .debug_loclists
+                0x00000000000090d9       0xf9 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .debug_loclists
+                0x00000000000091d2       0x27 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(tolower.o)
+ .debug_loclists
+                0x00000000000091f9      0x100 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .debug_loclists
+                0x00000000000092f9      0x317 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .debug_loclists
+                0x0000000000009610       0x79 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memset.o)
+ .debug_loclists
+                0x0000000000009689       0x62 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .debug_loclists
+                0x00000000000096eb       0x89 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .debug_loclists
+                0x0000000000009774       0xb5 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .debug_loclists
+                0x0000000000009829     0x178a out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .debug_loclists
+                0x000000000000afb3      0x327 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_loclists
+                0x000000000000b2da       0x90 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memchr.o)
+ .debug_loclists
+                0x000000000000b36a       0x46 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strlen.o)
+ .debug_loclists
+                0x000000000000b3b0       0xcb out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+
+.debug_macro    0x0000000000000000    0x142ca
+ .debug_macro   0x0000000000000000      0x132 out/arm-plat-imx/ldelf/dl.o
+ .debug_macro   0x0000000000000132      0x9a6 out/arm-plat-imx/ldelf/dl.o
+ .debug_macro   0x0000000000000ad8      0x69e out/arm-plat-imx/ldelf/dl.o
+ .debug_macro   0x0000000000001176       0x7c out/arm-plat-imx/ldelf/dl.o
+ .debug_macro   0x00000000000011f2      0x174 out/arm-plat-imx/ldelf/dl.o
+ .debug_macro   0x0000000000001366      0x1a0 out/arm-plat-imx/ldelf/dl.o
+ .debug_macro   0x0000000000001506       0xc4 out/arm-plat-imx/ldelf/dl.o
+ .debug_macro   0x00000000000015ca       0x22 out/arm-plat-imx/ldelf/dl.o
+ .debug_macro   0x00000000000015ec       0x3a out/arm-plat-imx/ldelf/dl.o
+ .debug_macro   0x0000000000001626      0x12c out/arm-plat-imx/ldelf/dl.o
+ .debug_macro   0x0000000000001752      0xcf1 out/arm-plat-imx/ldelf/dl.o
+ .debug_macro   0x0000000000002443       0x35 out/arm-plat-imx/ldelf/dl.o
+ .debug_macro   0x0000000000002478       0x58 out/arm-plat-imx/ldelf/dl.o
+ .debug_macro   0x00000000000024d0       0x34 out/arm-plat-imx/ldelf/dl.o
+ .debug_macro   0x0000000000002504       0x79 out/arm-plat-imx/ldelf/dl.o
+ .debug_macro   0x000000000000257d       0x1c out/arm-plat-imx/ldelf/dl.o
+ .debug_macro   0x0000000000002599      0x120 out/arm-plat-imx/ldelf/dl.o
+ .debug_macro   0x00000000000026b9       0xa4 out/arm-plat-imx/ldelf/dl.o
+ .debug_macro   0x000000000000275d       0xb6 out/arm-plat-imx/ldelf/dl.o
+ .debug_macro   0x0000000000002813       0x16 out/arm-plat-imx/ldelf/dl.o
+ .debug_macro   0x0000000000002829      0x2e9 out/arm-plat-imx/ldelf/dl.o
+ .debug_macro   0x0000000000002b12      0x1ca out/arm-plat-imx/ldelf/main.o
+ .debug_macro   0x0000000000002cdc      0x9a6 out/arm-plat-imx/ldelf/main.o
+ .debug_macro   0x0000000000003682       0x2e out/arm-plat-imx/ldelf/main.o
+ .debug_macro   0x00000000000036b0       0x3a out/arm-plat-imx/ldelf/main.o
+ .debug_macro   0x00000000000036ea       0x6a out/arm-plat-imx/ldelf/main.o
+ .debug_macro   0x0000000000003754       0x47 out/arm-plat-imx/ldelf/main.o
+ .debug_macro   0x000000000000379b       0x34 out/arm-plat-imx/ldelf/main.o
+ .debug_macro   0x00000000000037cf       0x22 out/arm-plat-imx/ldelf/main.o
+ .debug_macro   0x00000000000037f1      0x11f out/arm-plat-imx/ldelf/sys.o
+ .debug_macro   0x0000000000003910      0x9a6 out/arm-plat-imx/ldelf/sys.o
+ .debug_macro   0x00000000000042b6      0x271 out/arm-plat-imx/ldelf/ta_elf.o
+ .debug_macro   0x0000000000004527      0x9a6 out/arm-plat-imx/ldelf/ta_elf.o
+ .debug_macro   0x0000000000004ecd       0x28 out/arm-plat-imx/ldelf/ta_elf.o
+ .debug_macro   0x0000000000004ef5       0x10 out/arm-plat-imx/ldelf/ta_elf.o
+ .debug_macro   0x0000000000004f05     0x1610 out/arm-plat-imx/ldelf/ta_elf.o
+ .debug_macro   0x0000000000006515       0x4a out/arm-plat-imx/ldelf/ta_elf.o
+ .debug_macro   0x000000000000655f       0x5f out/arm-plat-imx/ldelf/ta_elf.o
+ .debug_macro   0x00000000000065be       0xf7 out/arm-plat-imx/ldelf/ta_elf.o
+ .debug_macro   0x00000000000066b5      0x194 out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000006849      0x9a6 out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .debug_macro   0x00000000000071ef       0xaa out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000007299      0x169 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .debug_macro   0x0000000000007402      0x9a6 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .debug_macro   0x0000000000007da8       0x22 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .debug_macro   0x0000000000007dca       0xfe out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .debug_macro   0x0000000000007ec8      0x9a6 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .debug_macro   0x000000000000886e       0x1c out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .debug_macro   0x000000000000888a      0x130 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_macro   0x00000000000089ba      0x9a6 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_macro   0x0000000000009360      0x10a out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_macro   0x000000000000946a      0x9a6 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_macro   0x0000000000009e10      0x22b out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x000000000000a03b      0x9a6 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x000000000000a9e1       0x10 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x000000000000a9f1       0x3c out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x000000000000aa2d       0x24 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(isxdigit.o)
+ .debug_macro   0x000000000000aa51      0x9a6 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(isxdigit.o)
+ .debug_macro   0x000000000000b3f7       0x4d out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .debug_macro   0x000000000000b444      0x9a6 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .debug_macro   0x000000000000bdea       0xd2 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+ .debug_macro   0x000000000000bebc      0x9a6 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+ .debug_macro   0x000000000000c862       0x24 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(tolower.o)
+ .debug_macro   0x000000000000c886      0x9a6 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(tolower.o)
+ .debug_macro   0x000000000000d22c       0x51 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .debug_macro   0x000000000000d27d      0x9a6 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .debug_macro   0x000000000000dc23       0x7c out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .debug_macro   0x000000000000dc9f       0x57 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .debug_macro   0x000000000000dcf6      0x9a0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .debug_macro   0x000000000000e696       0x51 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memset.o)
+ .debug_macro   0x000000000000e6e7      0x9a6 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memset.o)
+ .debug_macro   0x000000000000f08d       0x54 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .debug_macro   0x000000000000f0e1      0x9a6 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .debug_macro   0x000000000000fa87       0x54 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .debug_macro   0x000000000000fadb      0x9a6 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .debug_macro   0x0000000000010481       0x45 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .debug_macro   0x00000000000104c6      0x9a6 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .debug_macro   0x0000000000010e6c      0x13d out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000010fa9      0x9a6 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .debug_macro   0x000000000001194f       0xec out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_macro   0x0000000000011a3b      0x9a6 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_macro   0x00000000000123e1       0x66 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memchr.o)
+ .debug_macro   0x0000000000012447      0x9a6 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memchr.o)
+ .debug_macro   0x0000000000012ded       0x5a out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strlen.o)
+ .debug_macro   0x0000000000012e47      0x9a6 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strlen.o)
+ .debug_macro   0x00000000000137ed      0x137 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000013924      0x9a6 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+
+.comment        0x0000000000000000       0x2d
+ .comment       0x0000000000000000       0x2d out/arm-plat-imx/ldelf/dl.o
+                                         0x2e (size before relaxing)
+ .comment       0x000000000000002d       0x2e out/arm-plat-imx/ldelf/main.o
+ .comment       0x000000000000002d       0x2e out/arm-plat-imx/ldelf/sys.o
+ .comment       0x000000000000002d       0x2e out/arm-plat-imx/ldelf/ta_elf.o
+ .comment       0x000000000000002d       0x2e out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .comment       0x000000000000002d       0x2e out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .comment       0x000000000000002d       0x2e out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .comment       0x000000000000002d       0x2e out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .comment       0x000000000000002d       0x2e out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .comment       0x000000000000002d       0x2e out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .comment       0x000000000000002d       0x2e out/arm-plat-imx/ldelf-lib/libutils/libutils.a(isxdigit.o)
+ .comment       0x000000000000002d       0x2e out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .comment       0x000000000000002d       0x2e out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+ .comment       0x000000000000002d       0x2e out/arm-plat-imx/ldelf-lib/libutils/libutils.a(tolower.o)
+ .comment       0x000000000000002d       0x2e out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .comment       0x000000000000002d       0x2e out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .comment       0x000000000000002d       0x2e out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memset.o)
+ .comment       0x000000000000002d       0x2e out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .comment       0x000000000000002d       0x2e out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .comment       0x000000000000002d       0x2e out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .comment       0x000000000000002d       0x2e out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .comment       0x000000000000002d       0x2e out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .comment       0x000000000000002d       0x2e out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memchr.o)
+ .comment       0x000000000000002d       0x2e out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strlen.o)
+ .comment       0x000000000000002d       0x2e out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-imx/ldelf/dl.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-imx/ldelf/main.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-imx/ldelf/sys.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-imx/ldelf/ta_elf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-imx/ldelf/ta_elf_rel.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm32.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libunw/libunw.a(unwind_arm64.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(assert.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(isxdigit.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(stack_check.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(tolower.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memset.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(trace.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(memchr.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutils/libutils.a(strlen.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-imx/ldelf-lib/libutee/libutee.a(trace_ext.o)
